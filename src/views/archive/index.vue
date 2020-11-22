@@ -9,7 +9,7 @@
       <div class="archive-class-title">{{item.year}}</div>
       <el-timeline>
         <el-timeline-item v-for="a in item.list" :key="a.id" :hide-timestamp="true">
-          <span class="archive-class-item-time">{{a.time}}</span> <a class="archive-class-item-title" href="">{{a.title}}</a>
+          <span class="archive-class-item-time">{{a.time}}</span> <a class="archive-class-item-title" :href="'/dispDemo/' + a.name" >{{a.title}}</a>
         </el-timeline-item>
       </el-timeline>
     </div>
@@ -49,39 +49,58 @@ export default {
           list: [
             {
               id: 1,
-              time: '10-09',
-              title: '科学的 Web 调试代理实践'
+              time: '11-20',
+              title:'Macbook',
+              name:'macbook'
             },
             {
               id: 2,
-              time: '10-09',
-              title: '科学的 Web 调试代理实践'
+              time: '11-15',
+              title: '面试题：CSS时钟',
+              name: 'clocks',
             },
             {
               id: 3,
-              time: '10-09',
-              title: '科学的 Web 调试代理实践'
+              time: '11-01',
+              title: '文字搬运工',
+              name: 'wordRemove'
             },
             {
               id: 4,
-              time: '10-09',
-              title: '科学的 Web 调试代理实践'
+              time: '10-21',
+              title: '[精] 看点空投 - 管理平台',
+              name:'AirNews-admin'
             },
             {
               id: 5,
-              time: '10-09',
-              title: '科学的 Web 调试代理实践'
+              time: '10-15',
+              title: '[精] NoStyleMusic 无风格音乐播放器',
+              name:'musicAPP'
             },
             {
               id: 6,
-              time: '10-09',
-              title: 'sjsjskskskksksksksksksk'
+              time: '10-06',
+              title: '豆瓣网',
+              name:'douban'
+            },
+            {
+              id: 7,
+              time: '09-02',
+              title: '网易严选',
+              name: 'netease'
+            },
+            {
+              id: 8,
+              time: '08-29',
+              title: '购物车',
+              name:'dragShoppingcar'
             },
             {
               id: 9,
-              time: '10-09',
-              title: 'sjsjskskskksksksksksksk'
-            }
+              time: '08-25',
+              title: '豆瓣网',
+              name:'douban'
+            },
           ]
         },
         {
@@ -89,38 +108,15 @@ export default {
           list: [
             {
               id: 1,
-              time: '10-09',
-              title: 'sjsjskskskksksksksksksk'
+              time: '12-29',
+              title: '[精] Finder摄影租赁器材',
+              name: 'FinderAPP'
             },
             {
               id: 2,
-              time: '10-09',
-              title: 'sjsjskskskksksksksksksk'
-            },
-            {
-              id: 3,
-              time: '10-09',
-              title: 'sjsddjskskskksksksksksksk'
-            },
-            {
-              id: 4,
-              time: '10-09',
-              title: 'sjsjskskskksksksksksksk'
-            },
-            {
-              id: 5,
-              time: '10-09',
-              title: 'sjsjskskskksksksksksksk'
-            },
-            {
-              id: 6,
-              time: '10-09',
-              title: 'sjsjskskskksksksksksksk'
-            },
-            {
-              id: 9,
-              time: '10-09',
-              title: 'sjsjskskskksksksksksksk'
+              time: '12-25',
+              title: '实验室项目 - ‘曹操到’家政后台',
+              name:'myHouse'
             }
           ]
         }
