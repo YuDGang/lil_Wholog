@@ -71,14 +71,16 @@ export default {
       pdonate: true,//打开赞赏控制,
       detailObj: {
         id: 1,
-        title: '文章标题',
+        title: '别用cmd了，配置一个比Mac终端还美的Windows Terminal——详细教程',
         create_time: '1578955555',
         browse_count: '33',
         comment_count: '44',
-        cate_name: 'dddd',
+        cate_name: '2020-08-19',
         wechat_image: '',
         alipay_image: '',
-        content: 'sdjfkadjfklajdfkaljfaklsdjfklajdfaksfjksd'
+        content: `
+          别用cmd了，配置一个比Mac终端还美的Windows Terminal——详细教程
+          `
       },//返回详情数据
       likeArt: false,//是否点赞
       likeCount: 400,//点赞数量

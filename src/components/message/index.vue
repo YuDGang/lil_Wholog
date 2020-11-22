@@ -153,7 +153,7 @@ export default {
           "comment_id": 658,
           "user_id": 0,
           "leave_id": 4,
-          "content": "666666，想看小姐姐照片[嘻嘻]",
+          "content": "666666，想看小哥哥照片[嘻嘻]",
           "leave_pid": 0,
           "pid": 0,
           "time": "2020-07-12 22:09:03",

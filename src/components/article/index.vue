@@ -80,35 +80,36 @@ export default {
       hasMore: true,
       level: 1,
       shareClass: [
-        {
-          classId: 1, name: '技术分享', detshare: [
-            { classId: 5, name: '移动端H5', pid: 1 },
-            { classId: 6, name: 'pc端web', pid: 1 },
-            { classId: 7, name: '小程序', pid: 1 },
-            { classId: 8, name: 'php', pid: 1 },
-            { classId: 9, name: 'nodejs', pid: 1 },
-            { classId: 10, name: '软件', pid: 1 },
-            { classId: 11, name: '其他', pid: 1 }
-          ]
-        },
-        { classId: 2, name: '闲言碎语' },
-        { classId: 3, name: '事件簿' },
+        // {
+        //   classId: 1, name: '分享', detshare: [
+        //     { classId: 5, name: '移动端H5', pid: 1 },
+        //     { classId: 6, name: 'Web', pid: 1 },
+        //     { classId: 7, name: '小程序', pid: 1 },
+        //     { classId: 8, name: 'php', pid: 1 },
+        //     { classId: 9, name: 'nodejs', pid: 1 },
+        //     { classId: 10, name: '软件', pid: 1 },
+        //     { classId: 11, name: '其他', pid: 1 }
+        //   ]
+        // },
+        { classId: 1, name: '摄影' },
+        { classId: 2, name: '剪辑' },
+        { classId: 3, name: '前端' },
         { classId: 4, name: '创作集' }
       ],
       queryClass: 1,
       articleList: [
         {
-          'create_time': "2020-06-16 15:26:52",
-          'like_count': 55,
-          'browse_count': 333,
-          'collect_count': 88,
-          'cate_name': '分类标签',
-          'comment_count': 777,
-          'title': '文章标题',
+          'create_time': "2020-08-19 11:04:45",
+          'like_count': 75,
+          'browse_count': 473,
+          'collect_count': 255,
+          'cate_name': '前端',
+          'comment_count': 1085,
+          'title': '别用cmd了，配置一个比Mac终端还美的Windows Terminal——详细教程',
           'class_id': 3,
-          'description': '文章内容',
+          'description': '精致漂亮的界面和高效便捷的开发工具就像是台前和幕后，前端er的眼里容不下一个丑陋的盒子，也免不了嫌弃Windows系统审美上的落后……',
           'image': 'asdfdsf',
-          'id': 'sd'
+          'id': '0001'
         },
         {
           'create_time': "2020-06-16 15:26:52",

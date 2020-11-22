@@ -19,7 +19,7 @@
           <!-- 爱美食，爱动手做美食，想长胖的尽管来。 -->
         </p>
         <p class="aboutme-description">
-          博客fork自aimme学姐，2020年10月20日更新到Vue
+          2020年10月20日更新
         </p>
       </section>
     </div>
