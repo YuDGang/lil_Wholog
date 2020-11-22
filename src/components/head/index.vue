@@ -10,7 +10,7 @@
         </el-col>
       </el-row>
     </div>
-    <div class="headImgBox">
+    <div class="headImgBox" :style="backgroundImage">
       <div class="scene">
         <div><span id="like"></span></div>
       </div>
@@ -32,10 +32,14 @@
 <script>
 import H5Head from './components/h5-head.vue'
 import PCHead from './components/pc-head.vue'
+
+import allBackgroundImages from './../../store/headbg.js'
+
 export default {
   name: 'Head',
   data () {
     return {
+      allBackgroundImages,
       activeIndex: '/',
       classList: [
         {
@@ -80,7 +84,17 @@ export default {
     logoinFun () { },
     userlogout () { }
   },
-  created () { }
+  computed: {
+    backgroundImage() {
+      const randIndex = Math.floor(Math.random()*this.allBackgroundImages.length)
+      return {
+        backgroundImage: `url(${this.allBackgroundImages[randIndex]})`
+      }
+    }
+  },
+  created () { 
+    
+  }
 }
 </script>
 
@@ -111,7 +125,7 @@ export default {
   background-position: center 50%;
   background-repeat: no-repeat;
   margin-bottom: 90px;
-  background-image: url('./../../assets/img/headbg02.jpg');
+  // background-image: url('./../../assets/img/headbg04.jpg');
 }
 
 .h-information {
