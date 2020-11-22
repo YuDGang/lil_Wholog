@@ -3,7 +3,7 @@
   <div class="tRewardBox tcommonBox">
     <div class="reward-title"> 赞赏 </div> 
     <div class="reward-img">
-      <img src="@/assets/img/timg.jpg" alt="" class="maxW">
+      <!-- <img src="@/assets/img/timg.jpg" alt="" class="maxW"> -->
     </div>
     <div class="reward-description-title">@赞赏说明：</div>
     <div class="reward-content">
@@ -42,8 +42,8 @@ export default {
   data () { //选项 / 数据
     return {
       tableData: [{//赞赏数据
-        pay_time: '2016-05-02',
-        name: '王小虎',
+        pay_time: '2020-10-02',
+        name: '我本人',
         money: '555'
       }]
     }
